@@ -17,13 +17,14 @@
 
 .top_p_01{
     font-family: 'M PLUS Rounded 1c', sans-serif;
-    letter-spacing: 0.4em;
-    font-size: 20px;
+    letter-spacing: 0.44em;
+    font-size: 18px;
+    margin-top: 40px;
 }
 
 .top_p_02{
-    font-size: 116px;
-    margin: 10px auto;
+    font-size: 110px;
+    margin: 40px auto;
     font-weight: bolder;
 }
 
@@ -39,13 +40,14 @@
 
 .nav_00 {
     flex-basis: 10%;
-    color: lightgrey;
 }
 
 .nav_01 {
-    flex-basis: 15%;
+    flex-basis: 10%;
     line-height: 50px;
     border-left: 1px solid black;
+    color: rgb(131, 131, 131);
+    font-size: 14px;
     
 }
 
@@ -60,6 +62,6 @@ input {
 }
 
 #nav_search:hover {
-    color: grey;
+    color: rgb(78, 78, 78);
     text-decoration: underline;
 }
